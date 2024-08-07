@@ -1,4 +1,4 @@
-namespace dashboard_ecommerce_csharp_api
+namespace DashboardEcommerce
 {
     public class WeatherForecast
     {

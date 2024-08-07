@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace dashboard_ecommerce_csharp_api.Controllers
+namespace DashboardEcommerce.Controllers
 {
     [ApiController]
     [Route("[controller]")]

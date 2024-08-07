@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dashboard-ecommerce-csharp-api", "dashboard-ecommerce-csharp-api\dashboard-ecommerce-csharp-api.csproj", "{2C08C6A2-407D-49EB-9DA2-5E9402F9E49A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardEcommerce", "DashboardEcommerce\DashboardEcommerce.csproj", "{3369CEB8-4BCF-44F4-83B2-A31B795C6E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardEcommerce.DataAccess", "DashboardEcommerce.DataAccess\DashboardEcommerce.DataAccess.csproj", "{586AF3EF-23EC-4020-80BE-40ED5A44D1DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2C08C6A2-407D-49EB-9DA2-5E9402F9E49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C08C6A2-407D-49EB-9DA2-5E9402F9E49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C08C6A2-407D-49EB-9DA2-5E9402F9E49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C08C6A2-407D-49EB-9DA2-5E9402F9E49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3369CEB8-4BCF-44F4-83B2-A31B795C6E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3369CEB8-4BCF-44F4-83B2-A31B795C6E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3369CEB8-4BCF-44F4-83B2-A31B795C6E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3369CEB8-4BCF-44F4-83B2-A31B795C6E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586AF3EF-23EC-4020-80BE-40ED5A44D1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586AF3EF-23EC-4020-80BE-40ED5A44D1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586AF3EF-23EC-4020-80BE-40ED5A44D1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586AF3EF-23EC-4020-80BE-40ED5A44D1DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
